@@ -6,7 +6,7 @@ source as (
 
 ),
 
-renamed as (
+customers as (
 
     select
         id as customer_id,
@@ -17,4 +17,4 @@ renamed as (
 
 )
 
-select * from renamed
+select * from customers

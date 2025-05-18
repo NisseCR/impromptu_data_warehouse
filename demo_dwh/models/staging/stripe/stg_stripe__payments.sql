@@ -6,7 +6,7 @@ source as (
 
 ),
 
-renamed as (
+payments as (
 
     select
         -- ids
@@ -41,4 +41,4 @@ renamed as (
 
 )
 
-select * from renamed
+select * from payments

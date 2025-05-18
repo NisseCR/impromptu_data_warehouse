@@ -6,7 +6,7 @@ source as (
 
 ),
 
-renamed as (
+orders as (
 
     select
         id as order_id,
@@ -18,4 +18,4 @@ renamed as (
 
 )
 
-select * from renamed
+select * from orders
